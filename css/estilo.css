@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    }
+    .container{
+    width:1200px;
+    margin: 0 auto;
+
+    /* background-color:maroon;  */
+    }  
+
+    header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+
+    background-color: #000000;
+    }
+
+    .container_header{
+    display: flex;
+    justify-content: space-evenly;
+    height:100%;
+    align-items: center;
+    margin-right: 280px;
+
+     /* background-color: cyan;  */
+    }
+
+    .menu_header{
+     display: flex;
+     justify-content:space-between;
+     /* background-color: bisque; */
+     width: 759px;
+     align-items: center;
+    
+
+      /* background-color: chocolate;  */
+    }
+
+    .menu_header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    }
+      
+    .logo_site{      
+    width: 360px;
+    height: 32px;
+    margin-right: 76px;
+    align-items: center;
+    
+
+
+     /* background-color: mediumvioletred;  */
+    }
+
+    .container_banner{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+
+    background: linear-gradient(90deg, #C712BF 0%, #000000 71.92%, #000000 84.62%);
+    }
+
+    .box_conteudo{
+    width: 100%;
+    height: 100%;
+    }
+
+    .box_conteudo img{
+    width: 431px;
+    height: 557px;
+    margin-top: 43px;
+    margin-left: 245px;
+
+    /* background-color: yellow; */
+    }
+
+    .box_conteudo h1{
+    position: absolute;
+    width: 506px;
+    height: 244px;
+
+    left: 980px;
+    top: 253px;
+    
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 122px;
+
+    color: #FFFFFF;
+    }
+
+    .box_conteudo h3{
+    position: absolute;
+    width: 430px;
+    height: 30px;
+    left: 1021px;
+    top: 375px;
+        
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+       
+    color: #FFFFFF;
+    }
+
+   /* .inscreva{
+    position: absolute;
+    width: 283.24px;
+    height: 62px;
+    left: 1082px;
+    top: 469px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #A60FA0; 
+    border-radius: 10px;
+   } */
+
+    /* .inscreva a{
+    width: 147.83px;
+    height: 37px;
+    
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+    background-color: chocolate;  
+    } */
+    
+    .container_jogos{
+    width: 100%;
+    height: 120px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    }
+
+    .jogos{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: green; */
+    }
+
+   .como_participar{
+   width: 100%;
+   height: 712px;
+   display: flex;
+   justify-content: center; 
+
+   background-color: aqua;
+   }
+
+   .container_participar{
+    position: absolute;
+    width: 100%;
+    height: 704.24px;
+    display: flex;
+    justify-content: center;
+    
+   
+    background: #000000;
+    clip-path: polygon(100% 2%, 100% 86%, 0 100%, 0 13%);
+   }
+
+   .como_participar img{
+    width: 100%;
+    height: 712px;
+   }
+
+   .container_participar img{
+    width: 558px;
+    height: 562px;
+    
+    margin-left: 40px;  
+    margin-top: 52px;
+   }
+
+   .box_participar h1{
+    width: 510px;
+    height: 59px;
+    margin-top: 120px;
+   
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 68px;
+    
+    color: #FFFFFF;    
+    }
+
+    .box_participar h2{
+    width: 621px;
+    height: 242px;
+    margin-top: 70px;;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: unset;
+    font-size: 19px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+    }
+
+    .box_participar{
+    width: 621px;
+    height: 336px;
+    }
+
+    .aovivo{
+    width: 100%;
+    height: 120px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .aovivo img{
+    width: 1217px;
+    height: 89px;
+    margin-top: 9px;
+    }
+
+    .container_noticias{
+    width: 100%;
+    height: 1320px;
+
+    background-color: #1E1C21;
+    }
+
+    .container_noticias .conteudo{
+    display: flex;
+    justify-content: center;
+    }
+
+    .box_noticias{
+    width: 100%;
+    height: 130px;
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+    }
+
+    .box_noticias h2{
+    width: 131px;
+    height: 32px;
+    margin-left: 265px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+    }
+
+    .box_noticias h3{
+    width: 238px;
+    height: 40px;
+    margin-right: 290px;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 53px;
+
+    color: #FFFFFF;
+    }
+
+    .conteudo{
+    width: 1226px;
+    height: 1103px; 
+    margin-left: 257px;
+    }
+
+    .bloco_isadora{
+    width: 880px;
+    height: 1088.61px;
+
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    }
+
+    .bloco_isadora img{
+    width: 264px;
+    height: 458px;
+    }
+
+    .proximos_jogos img{
+    width: 311px;
+    height: 1100px;
+    margin-left: 36px;
+
+    
+    background: linear-gradient(180.01deg, #000000 0.01%, rgba(48, 48, 48, 0.978022) 18.75%, #313131 51.56%, #000000 99.99%);
+    border: 5px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.56);
+    border-radius: 10px;
+    }
+
+    footer {
+      background-color: black;
+      height: 350px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .container_footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .container_links {
+      display: flex;
+      justify-content: space-between;
+      width: 280px;
+  }
+  
+  .container_links span {
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 20px;
+      color: white;
+  }
+  
+  .container_links li {
+      color: white;
+  }
+  
+  .container_links a {
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 15px;
+      color: white;
+      text-decoration: none;
+  }
+  
+  .siga_nos .clan {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: white;
+  }
+  
+  .siga_nos .segue {
+      font-family: 'Titillium Web', sans-serif;
+      color: white;
+      font-size: 20px;
+  }
+  
+  .siga_nos img {
+      height: 40px;
+      width: 40px;
+  }
+  
+  .cadastrar {
+      display: flex;
+  }
+  
+  .cadastrar input {
+      height: 40px;
+      width: 220px;
+  }
+  
+  .cadastrar a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      background-color: #016AB7;
+      height: 40px;
+      width: 126px;
+  }
+  
+  .cadastrar a span {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 25px;
+      font-weight: bold;
+      color: white;
+  }
+  
+  .redes_sociais {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 10px;
+  }
+
+   
+
+
+
+    
