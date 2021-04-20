@@ -119,35 +119,6 @@
     color: #FFFFFF;
     }
 
-   /* .inscreva{
-    position: absolute;
-    width: 283.24px;
-    height: 62px;
-    left: 1082px;
-    top: 469px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    background: #A60FA0; 
-    border-radius: 10px;
-   } */
-
-    /* .inscreva a{
-    width: 147.83px;
-    height: 37px;
-    
-    font-family: 'Titillium Web', sans-serif;
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 29px;
-    line-height: 34px;
-
-    color: #FFFFFF;
-    background-color: chocolate;  
-    } */
-    
     .container_jogos{
     width: 100%;
     height: 120px;
@@ -317,16 +288,63 @@
     height: 458px;
     }
 
-    .proximos_jogos img{
+    .proximos_jogos{
     width: 311px;
-    height: 1100px;
+    height: 1004px;
     margin-left: 36px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
-    
     background: linear-gradient(180.01deg, #000000 0.01%, rgba(48, 48, 48, 0.978022) 18.75%, #313131 51.56%, #000000 99.99%);
     border: 5px solid rgba(0, 0, 0, 0.15);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.56);
     border-radius: 10px;
+    }
+
+    .conteudo_proximo{
+    width: 264px;
+    height: 976px;
+    margin-top: 50px;
+    }
+
+    
+    .container_proximo{
+    width: 264px;
+    height: 54px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .container_proximo span{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px; 
+    font-weight: bold;
+    color: white;
+    }
+
+    .span_data{   
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 70px;  
+    }
+
+    .data{
+    font-family:
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 29px;
+    font-family: 'Roboto', sans-serif;
+    
+    color: #FFFFFF;
+    }
+
+    .horario{
+    color: white;
     }
 
     footer {
